@@ -205,5 +205,6 @@ Consider, for example, concepts of fariness, inequality, social structures, marg
 
 
 ```
-Your thoughts...
+When I encounter data systems, they often come in the form of surveys. For example, demographic forms or user experience surveys or job personnel surveys. Within these experiences, two sides clash: one is the recipient of the survey, who doesn't want to be confined in one simple category considering the complexities of their life, but on the other side is the analyst, who wants to extract data as cleanly and efficiently as possible (and probably strongly prefers a dropdown menu compared to an empty textbox). Yet, the problem with simplicity is that it often comes hand-in-hand with an overarching assumption of normativity. The assumption of normativity—whether it's based on gender, family structure, or ethnicity—also limits the inclusivity of these systems. Ultimately, while data systems and databases may appear neutral, they often reflect and perpetuate beliefs of those that create it, and may perpetuate certain social structures, for example. In the extreme scenario, such as government mandates such as the one we read in the article above, databases and data systems can reinforce power imbalances and making people’s rights contingent on rigid, algorithmic definitions that fail to account for human complexity.
+
 ```
