@@ -54,7 +54,10 @@ The store wants to keep customer addresses. Propose two architectures for the CU
 **HINT:** search type 1 vs type 2 slowly changing dimensions. 
 
 ```
-Your answer...
+In my logical model, my table "customer_address_type_1" has a one-to-one relatinship with "customer", meaning that each customer should only have one address in file. With this structure, if they have a new address, it will overwrite the old one. 
+
+On the other hand, if we want another architecture so that it will retain changes and log all of the addresses a customer has over their lifetime, we can go with "customer_address_type_2", which has a many-to-one relationship with each unique customer.
+
 ```
 
 ***
@@ -182,5 +185,7 @@ Consider, for example, concepts of labour, bias, LLM proliferation, moderating c
 
 
 ```
-Your thoughts...
+
+This story highlights how the datasets our current systems rely on are built from human, crowdsourced labor. Often, this labor is hugely underpaid and most of the time their contributions go unrecognized. In addition to these concerns of exploitation, another concern can be the inherent biases that the data hold. Since it's all human labeled, our data is limited to the perspective and underlying prejudices of those who have labeled the data. This can carry on downstream in the system, resulting in harmful stereotypes being perpetuated in AI outputs. 
+
 ```
